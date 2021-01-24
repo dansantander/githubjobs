@@ -10,7 +10,7 @@ function Job({ job }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <Card>
+    <Card className="mb-3">
       <Card.Body>
         <div className="d-flex justify-content-between">
           <div>
